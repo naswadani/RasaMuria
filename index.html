@@ -289,23 +289,25 @@
     </div>
 
     <!-- Mobile menu -->
-    <div id="mobile-menu" class="md:hidden px-5 pb-4 space-y-3 border-t border-white/10">
-      <a href="#tentang" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
-        onclick="closeMenu()">Tentang</a>
-      <a href="#produk" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
-        onclick="closeMenu()">Produk</a>
-      <a href="#bahan" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
-        onclick="closeMenu()">Bahan</a>
-      <a href="#keunggulan" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
-        onclick="closeMenu()">Keunggulan</a>
+    <div id="mobile-menu" class="md:hidden">
+      <div class="px-5 pb-4 pt-2 space-y-3 border-t border-white/10">
+        <a href="#tentang" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
+          onclick="closeMenu()">Tentang</a>
+        <a href="#produk" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
+          onclick="closeMenu()">Produk</a>
+        <a href="#bahan" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
+          onclick="closeMenu()">Bahan</a>
+        <a href="#keunggulan" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
+          onclick="closeMenu()">Keunggulan</a>
 
-      <a href="#kontak" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
-        onclick="closeMenu()">Kontak</a>
-      <!-- ── LINK CTA MOBILE (ganti href di bawah ke link WhatsApp / Tokopedia / Shopee) ── -->
-      <a href="https://wa.me/6281234567890" target="_blank"
-        class="block bg-leaf text-white text-sm font-medium px-5 py-2.5 rounded-full text-center mt-2 transition-colors hover:bg-moss">
-        🛒 Beli Sekarang
-      </a>
+        <a href="#kontak" class="block text-white/80 hover:text-white py-2 text-sm transition-colors"
+          onclick="closeMenu()">Kontak</a>
+        <!-- ── LINK CTA MOBILE (ganti href di bawah ke link WhatsApp / Tokopedia / Shopee) ── -->
+        <a href="https://wa.me/6281234567890" target="_blank"
+          class="block bg-leaf text-white text-sm font-medium px-5 py-2.5 rounded-full text-center mt-2 transition-colors hover:bg-moss">
+          🛒 Beli Sekarang
+        </a>
+      </div>
     </div>
   </nav>
 
@@ -550,40 +552,54 @@
 
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
         <!-- Parijoto -->
-        <div class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in">
-          <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
+        <div
+          class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in">
+          <div
+            class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
             <img src="photo/parijoto.png" alt="Parijoto" class="w-full h-full object-cover rounded-full" />
           </div>
           <h3 class="font-bold text-charcoal mb-2">Parijoto</h3>
           <p class="text-xs text-earth">Buah khas Muria yang kaya antioksidan.</p>
         </div>
         <!-- Kencur -->
-        <div class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 100ms;">
-          <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
+        <div
+          class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in"
+          style="transition-delay: 100ms;">
+          <div
+            class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
             <img src="photo/kencur.png" alt="Kencur" class="w-full h-full object-cover rounded-full" />
           </div>
           <h3 class="font-bold text-charcoal mb-2">Kencur</h3>
           <p class="text-xs text-earth">Rempah hangat untuk stamina dan kesegaran.</p>
         </div>
         <!-- Madu -->
-        <div class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 200ms;">
-          <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
+        <div
+          class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in"
+          style="transition-delay: 200ms;">
+          <div
+            class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
             <img src="photo/madu.png" alt="Madu" class="w-full h-full object-cover rounded-full" />
           </div>
           <h3 class="font-bold text-charcoal mb-2">Madu</h3>
           <p class="text-xs text-earth">Pemanis alami yang menjaga daya tahan tubuh.</p>
         </div>
         <!-- Nipis -->
-        <div class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 300ms;">
-          <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
+        <div
+          class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in"
+          style="transition-delay: 300ms;">
+          <div
+            class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
             <img src="photo/jeruk_nipis.png" alt="Jeruk Nipis" class="w-full h-full object-cover rounded-full" />
           </div>
           <h3 class="font-bold text-charcoal mb-2">Jeruk Nipis</h3>
           <p class="text-xs text-earth">Kaya vitamin C untuk imunitas ekstra.</p>
         </div>
         <!-- Buah Naga -->
-        <div class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in" style="transition-delay: 400ms;">
-          <div class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
+        <div
+          class="bg-cream rounded-2xl p-6 text-center shadow-sm border border-sand/30 hover:-translate-y-2 transition-transform duration-300 fade-in"
+          style="transition-delay: 400ms;">
+          <div
+            class="w-16 h-16 mx-auto bg-white rounded-full flex items-center justify-center shadow-sm mb-4 border border-fern/20 overflow-hidden p-0.5">
             <img src="photo/buah_naga.png" alt="Buah Naga" class="w-full h-full object-cover rounded-full" />
           </div>
           <h3 class="font-bold text-charcoal mb-2">Buah Naga</h3>
